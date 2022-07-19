@@ -1,0 +1,48 @@
+* {
+    font-family: monospace;
+}
+
+.a {
+    background-color: aliceblue;
+    border: 2px solid dimgray;
+    display: flex;
+    flex-grow: initial;
+    padding: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.b {
+    background-color: aliceblue;
+    margin-left: 90%;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    min-width: 10rem;
+    border: 2px solid dimgray;
+    flex-direction: column;
+}
+
+section .one {
+    background-color: aquamarine;
+    padding: 4rem;
+}
+
+section .two {
+    background-color: darkgray;
+    padding: 4rem;
+}
+
+section .three {
+    background-color: coral;
+    padding: 4rem;
+}
+
+@media all and (max-width: 640px) {
+    .b {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-around;
+    }
+}

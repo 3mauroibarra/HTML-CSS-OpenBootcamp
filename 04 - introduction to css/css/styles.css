@@ -1,0 +1,7 @@
+#element-1 {
+  color: red;
+}
+
+ul li#element-1 {
+  font-size: 2rem;
+}
